@@ -1,0 +1,72 @@
+#location {
+    position: relative;
+}
+
+#location .areaContent {
+    position: absolute;
+    left: 10px;
+}
+
+#location:hover .areaList {
+    display: block;
+}
+
+#location:hover .nowArea {
+    background-color: #fff;
+
+}
+
+#location .nowArea {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+}
+#location .nowArea img {
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    /* vertical-align: 5px; */
+}
+#location .nowArea .nowItem {
+    color: #999;
+    vertical-align: 5px;
+    padding-left: 10px;
+
+}
+#location .areaList {
+    position: relative;
+    padding: 10px;
+    z-index: 99;
+    background-color: #fff;
+    display: none;
+}
+
+#location .areaList .areaItem {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    width: 40px;
+    text-align: center;
+}
+
+
+
+
+
+#location .areaList .areaItem:hover {
+    background-color: #eee;
+
+}
+
+#location .areaList .areaItem:hover a {
+    color: red;
+}
+
+#location .areaList .areaItem.areaActive {
+    background-color: red;
+
+}
+
+#location .areaList .areaItem.areaActive a {
+    color: #fff;
+}
